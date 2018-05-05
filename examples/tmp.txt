@@ -1,0 +1,81 @@
+[05/May/2018 03:56:17] setup Updater
+[05/May/2018 03:58:44] setup Updater
+[05/May/2018 03:58:45] get repo version: 3.3.5
+[05/May/2018 03:58:45] download patch
+[05/May/2018 03:59:24] setup Updater
+[05/May/2018 03:59:28] get repo version: 3.3.5
+[05/May/2018 03:59:28] download patch
+[05/May/2018 04:00:00] setup Updater
+[05/May/2018 04:00:01] get repo version: 3.3.5
+[05/May/2018 04:00:01] download patch
+[05/May/2018 04:00:04] get repo version: 3.3.5
+[05/May/2018 04:00:04] download patch
+[05/May/2018 04:00:16] setup Updater
+[05/May/2018 04:01:15] setup Updater
+[05/May/2018 04:01:18] get repo version: 3.3.5
+[05/May/2018 04:01:18] download patch
+[05/May/2018 04:01:35] get repo version: 3.3.5
+[05/May/2018 04:01:35] download patch
+[05/May/2018 04:01:48] setup Updater
+[05/May/2018 04:02:17] setup Updater
+[05/May/2018 04:02:18] get repo version: 2.0.2
+[05/May/2018 04:02:31] setup Updater
+[05/May/2018 04:02:31] get repo version: 2.0.2
+[05/May/2018 04:02:31] download patch
+[05/May/2018 04:04:25] get repo version: 2.0.2
+[05/May/2018 04:05:54] setup Updater
+[05/May/2018 04:07:12] compare current version with repo version 2.0.2 vs 2.0.1
+[05/May/2018 04:07:12] download patch
+[05/May/2018 04:07:12] start downloading
+[05/May/2018 04:07:22] Complete.
+[05/May/2018 04:08:43] setup Updater
+[05/May/2018 04:08:43] get version from core file
+[05/May/2018 04:10:48] setup Updater
+[05/May/2018 04:10:48] get version from core file
+[05/May/2018 04:10:55] setup Updater
+[05/May/2018 04:10:55] get version from core file
+[05/May/2018 04:10:56] compare current version with repo version 2.0.2 vs 2.0.1
+[05/May/2018 04:10:56] download patch
+[05/May/2018 04:10:56] start downloading
+[05/May/2018 04:11:16] compare current version with repo version 2.0.2 vs 2.0.1
+[05/May/2018 04:11:16] download patch
+[05/May/2018 04:11:16] start downloading
+[05/May/2018 04:11:26] setup Updater
+[05/May/2018 04:11:26] get version from core file
+[05/May/2018 04:12:07] compare current version with repo version 2.0.2 vs 2.0.1
+[05/May/2018 04:12:07] download patch
+[05/May/2018 04:12:07] start downloading
+[05/May/2018 04:12:09] setup Updater
+[05/May/2018 04:12:09] get version from core file
+[05/May/2018 04:12:10] compare current version with repo version 2.0.2 vs 2.0.1
+[05/May/2018 04:12:10] download patch
+[05/May/2018 04:12:10] start downloading
+[05/May/2018 04:12:17] Complete.
+[05/May/2018 04:12:58] setup Updater
+[05/May/2018 04:12:58] get version from core file
+[05/May/2018 04:14:02] compare current version with repo version 2.0.2 vs 2.0.1
+[05/May/2018 04:14:02] download patch
+[05/May/2018 04:14:02] start downloading
+[05/May/2018 04:14:16] Complete.
+[05/May/2018 04:14:17] compare current version with repo version 2.0.2 vs 2.0.1
+[05/May/2018 04:14:17] download patch
+[05/May/2018 04:14:17] start downloading
+[05/May/2018 04:14:27] Complete.
+[05/May/2018 04:15:58] setup Updater
+[05/May/2018 04:15:58] get version from core file
+[05/May/2018 04:16:02] setup Updater
+[05/May/2018 04:16:02] get version from core file
+[05/May/2018 04:19:11] setup Updater
+[05/May/2018 04:19:11] get version from core file
+[05/May/2018 04:19:14] compare current version with repo version 2.0.2 vs 2.0.1
+[05/May/2018 04:19:14] download patch
+[05/May/2018 04:19:14] start downloading
+[05/May/2018 04:19:25] Complete.
+[05/May/2018 04:19:47] compare current version with repo version 2.0.2 vs 2.0.1
+[05/May/2018 04:19:47] download patch
+[05/May/2018 04:19:47] start downloading
+[05/May/2018 04:19:56] Complete.
+[05/May/2018 04:20:25] compare current version with repo version  vs 2.0.1
+[05/May/2018 04:20:25] download patch
+[05/May/2018 04:20:25] start downloading
+[05/May/2018 04:20:36] Complete.

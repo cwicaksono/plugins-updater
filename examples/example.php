@@ -1,13 +1,14 @@
 <?php
 require_once '../vendor/autoload.php';
 
-$client = new Updater("https://github.com/cwicaksono/android_news_app", "");
+// example with woocommerce plugins
+// $repo            = "https://github.com/woocommerce/woocommerce";
+// $branch          = "release/3.3/";
+// $core_file       = "woocommerce.php";
+// $current_version = "3.3.4";
 
-$client->exec();
-/*
-TODO - get repo commit message
-TODO - if is_update: return to download zip, else: your repository is latest
-TODO - Github access token implementation
-TODO - Bitbucket API
-*/
+// $client = new Updater($repo, $branch, $core_file, $current_version, "");
+
+// example with twitter plugins from github
+$client = new Updater("https://github.com/twitter/wordpress", "master/", "twitter", "2.0.1", "");
 ?>
