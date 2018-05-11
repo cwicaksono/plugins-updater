@@ -20,22 +20,39 @@ class Updater
         $this->branch = $branch;
         $this->core_file = $core_file;
 
-        $repos_url = preg_split('/\//', $repo_url);
+        // TODO - check on this line is github or bitbucket       
+        if (preg_match("/\bgithub\b/i", $repo_url, $match)){
 
-        $this->repo_name = $repos_url[4];
-        $this->user_name = $repos_url[3];
+            $repos_url = preg_split('/\//', $repo_url);
 
-        $this->base_url = preg_replace('/_repo_/', $this->repo_name, $this->base_url);
-        $this->base_url = preg_replace('/_user_/', $this->user_name, $this->base_url);
+            $this->repo_name = $repos_url[4];
+            $this->user_name = $repos_url[3];
 
-        // get repo version
-        $this->writeLog("get version from core file");
-        $contents = preg_split('/Version:\ /', $this->readCoreFile())[1];
-        $repo_version = trim(preg_split('/\n/', $contents)[0]);
+            $this->base_url = preg_replace('/_repo_/', $this->repo_name, $this->base_url);
+            $this->base_url = preg_replace('/_user_/', $this->user_name, $this->base_url);
+
+            // get repo version
+            $this->writeLog("get version from core file");
+            $contents = preg_split('/Version:\ /', $this->readCoreFile())[1];
+            $repo_version = trim(preg_split('/\n/', $contents)[0]);
+
+        }else{
+
+            $repos_url = preg_split('/\//', $repo_url);
+
+            $this->repo_name = $repos_url[4];
+            $this->user_name = $repos_url[3];
+
+            $this->base_url = "https://bitbucket.org/" . $this->user_name . "/" . $this->repo_name . "/raw/master/" . $core_file . ".php";
+
+            // get repo version
+            $this->writeLog("get version from core file");
+            $contents = preg_split('/Version:\ /', $this->readCoreFile())[1];
+
+            $repo_version = trim(preg_split('/\n/', $contents)[0]);
+        }
 
         $this->writeLog("compare current version with repo version " . $repo_version ." vs " . $current_version);
-
-        // compare current_version with repo_version
         if($current_version != $repo_version){
 
             $this->writeLog("download patch");
@@ -44,8 +61,16 @@ class Updater
             $file_name = "./tmp/".$this->core_file."-".$branch.".tar.gz";
 
             $this->writeLog("start downloading");
-            $file_data = file_get_contents($repo_url . "/archive/".$this->branch.".tar.gz");
+            if (preg_match("/\bbitbucket\b/i", $this->repo_url, $match)){
 
+                $file_data = file_get_contents($repo_url . "/get/".$branch.".tar.gz?access_token=".$this->access_token);
+
+            }else{
+
+                $file_data = file_get_contents($repo_url . "/archive/".$this->branch.".tar.gz?access_token=".$this->access_token);
+
+            }
+            
             $handle = fopen($file_name, 'w');
             fclose($handle);
 
@@ -58,13 +83,16 @@ class Updater
             }
 
         }
-        
     }
 
     function readCoreFile(){
-        $file = $this->repo_url . "/" . $this->branch . $this->core_file . ".php";
+        $file = $this->repo_url . "/" . $this->branch . $this->core_file . ".php?access_token=".$this->access_token;
 
         $core_file_raw = preg_replace('/github.com/', "raw.githubusercontent.com", $file);
+
+        if (preg_match("/\bbitbucket\b/i", $this->repo_url, $match)){
+            $core_file_raw = $this->base_url . '?access_token=' . $this->access_token;
+        }
         
         $core_contents = $this->getContents($core_file_raw);
         return htmlentities($core_contents);

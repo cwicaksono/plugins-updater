@@ -79,3 +79,95 @@
 [05/May/2018 04:20:25] download patch
 [05/May/2018 04:20:25] start downloading
 [05/May/2018 04:20:36] Complete.
+[11/May/2018 08:07:24] setup Updater
+[11/May/2018 08:07:24] get version from core file
+[11/May/2018 08:07:31] compare current version with repo version  vs 3.3.4
+[11/May/2018 08:10:12] setup Updater
+[11/May/2018 08:10:12] get version from core file
+[11/May/2018 08:10:24] compare current version with repo version  vs 3.3.4
+[11/May/2018 08:21:17] setup Updater
+[11/May/2018 08:47:57] setup Updater
+[11/May/2018 08:49:13] setup Updater
+[11/May/2018 08:52:07] setup Updater
+[11/May/2018 08:52:13] setup Updater
+[11/May/2018 08:52:15] setup Updater
+[11/May/2018 08:56:16] setup Updater
+[11/May/2018 08:56:47] setup Updater
+[11/May/2018 08:56:52] setup Updater
+[11/May/2018 08:56:54] setup Updater
+[11/May/2018 08:59:01] setup Updater
+[11/May/2018 08:59:01] get version from core file
+[11/May/2018 08:59:03] compare current version with repo version 2.0.2 vs 2.0.1
+[11/May/2018 08:59:03] download patch
+[11/May/2018 08:59:03] start downloading
+[11/May/2018 08:59:07] setup Updater
+[11/May/2018 08:59:07] get version from core file
+[11/May/2018 08:59:08] compare current version with repo version 2.0.2 vs 2.0.1
+[11/May/2018 08:59:08] download patch
+[11/May/2018 08:59:08] start downloading
+[11/May/2018 08:59:12] Complete.
+[11/May/2018 08:59:12] Complete.
+[11/May/2018 09:00:01] setup Updater
+[11/May/2018 09:01:16] setup Updater
+[11/May/2018 09:03:36] setup Updater
+[11/May/2018 09:05:09] setup Updater
+[11/May/2018 09:05:13] setup Updater
+[11/May/2018 09:08:11] setup Updater
+[11/May/2018 09:08:22] setup Updater
+[11/May/2018 09:31:30] setup Updater
+[11/May/2018 09:32:25] setup Updater
+[11/May/2018 09:32:25] get version from core file
+[11/May/2018 09:36:11] setup Updater
+[11/May/2018 09:36:11] get version from core file
+[11/May/2018 09:37:20] setup Updater
+[11/May/2018 09:37:20] get version from core file
+[11/May/2018 09:39:53] setup Updater
+[11/May/2018 09:40:08] setup Updater
+[11/May/2018 09:40:16] setup Updater
+[11/May/2018 09:40:16] get version from core file
+[11/May/2018 09:40:35] setup Updater
+[11/May/2018 09:40:35] get version from core file
+[11/May/2018 09:42:33] setup Updater
+[11/May/2018 09:42:33] get version from core file
+[11/May/2018 09:42:47] setup Updater
+[11/May/2018 09:42:47] get version from core file
+[11/May/2018 09:43:02] setup Updater
+[11/May/2018 09:43:02] get version from core file
+[11/May/2018 09:43:11] setup Updater
+[11/May/2018 09:43:11] get version from core file
+[11/May/2018 09:43:14] setup Updater
+[11/May/2018 09:43:14] get version from core file
+[11/May/2018 09:43:24] setup Updater
+[11/May/2018 09:43:24] get version from core file
+[11/May/2018 09:43:43] setup Updater
+[11/May/2018 09:43:43] get version from core file
+[11/May/2018 09:43:49] setup Updater
+[11/May/2018 09:43:49] get version from core file
+[11/May/2018 09:44:13] setup Updater
+[11/May/2018 09:44:13] get version from core file
+[11/May/2018 09:49:18] setup Updater
+[11/May/2018 09:49:18] get version from core file
+[11/May/2018 09:49:19] compare current version with repo version 3.3.5 vs 3.3.4
+[11/May/2018 09:49:19] download patch
+[11/May/2018 09:49:36] setup Updater
+[11/May/2018 09:49:36] get version from core file
+[11/May/2018 09:49:39] compare current version with repo version 3.3.5 vs 3.3.4
+[11/May/2018 09:49:39] download patch
+[11/May/2018 09:52:53] setup Updater
+[11/May/2018 09:52:53] get version from core file
+[11/May/2018 09:52:58] compare current version with repo version 3.3.5 vs 3.3.4
+[11/May/2018 09:52:58] download patch
+[11/May/2018 09:53:38] setup Updater
+[11/May/2018 09:53:38] get version from core file
+[11/May/2018 09:53:41] compare current version with repo version 3.3.5 vs 3.3.4
+[11/May/2018 09:53:41] download patch
+[11/May/2018 09:53:58] setup Updater
+[11/May/2018 09:53:58] get version from core file
+[11/May/2018 09:54:02] compare current version with repo version 3.3.5 vs 3.3.4
+[11/May/2018 09:54:02] download patch
+[11/May/2018 09:55:38] setup Updater
+[11/May/2018 09:55:38] get version from core file
+[11/May/2018 09:55:39] compare current version with repo version  vs 3.3.4
+[11/May/2018 09:55:39] download patch
+[11/May/2018 09:55:39] start downloading
+[11/May/2018 09:55:44] Complete.
